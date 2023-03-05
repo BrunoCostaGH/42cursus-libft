@@ -2,6 +2,12 @@
 
 This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus.
 
+## Usage
+
+> Download the lastes release and place the folder 42cursus-libft in the project's root directory.
+> Compile the library with the provided Makefile.
+> Include the libft directory in the projects header file or in the project's source files.
+
 ## Libft Reference
 
 | Function          | Arguments         | Return Value                                                                     | Description                           |
