@@ -5,9 +5,9 @@ This project is your very first project as a student at 42. You will need to rec
 
 ## Usage
 
-> Download the lastes release and place the folder 42cursus-libft in the project's root directory.
-> Compile the library with the provided Makefile.
-> Include the libft directory in the projects header file or in the project's source files.
+- Download the lastes release and place the folder 42cursus-libft in the project's root directory.
+- Compile the library with the provided Makefile.
+- Include the libft directory in the projects header file or in the project's source files.
 
 ## Libft Reference
 
