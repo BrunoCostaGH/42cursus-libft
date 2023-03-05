@@ -66,5 +66,4 @@ This project is your very first project as a student at 42. You will need to rec
 ![commits](https://flat.badgen.net/github/commits/BrunoCostaGH/42cursus-libft/master)
 ![license](https://flat.badgen.net/github/license/BrunoCostaGH/42cursus-libft)
 
-[![GNL](https://flat.badgen.net/badge/swift/v1.0.0/blue?label=get_next_line)](https://github.com/BrunoCostaGH/42cursus-get_next_line)
 [![FT_PRINTF](https://flat.badgen.net/badge/swift/v1.0.0/blue?label=ft_printf)](https://github.com/BrunoCostaGH/42cursus-ft_printf)
