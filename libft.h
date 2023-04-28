@@ -6,7 +6,7 @@
 /*   By: bsilva-c <bsilva-c@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/04 10:42:26 by bsilva-c          #+#    #+#             */
-/*   Updated: 2023/03/15 18:20:36 by bsilva-c         ###   ########.fr       */
+/*   Updated: 2023/04/28 16:57:31 by bsilva-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,13 +42,17 @@ char	*ft_itoa(int n);
 char	*get_next_line(int fd);
 char	*ft_strdup(const char *s);
 char	*ft_strchr(const char *s, int c);
-char	**ft_split(char const *s, char c);
+char	*ft_fndnrepl(const char *find_str, char *replace_word, \
+							char *replace_value);
 char	*ft_strrchr(const char *s, int c);
 char	*ft_strjoin(char const *s1, char const *s2);
 char	*ft_strtrim(char const *s1, char const *set);
 char	*ft_substr(char const *s, unsigned int start, size_t len);
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 char	*ft_strnstr(const char *big, const char *little, size_t len);
+
+
+char	**ft_split(char const *s, char c);
 
 void	ft_bzero(void *s, int n);
 void	ft_putnbr_fd(int n, int fd);
