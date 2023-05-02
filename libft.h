@@ -51,7 +51,6 @@ char	*ft_substr(char const *s, unsigned int start, size_t len);
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 char	*ft_strnstr(const char *big, const char *little, size_t len);
 
-
 char	**ft_split(char const *s, char c);
 
 void	ft_bzero(void *s, int n);
