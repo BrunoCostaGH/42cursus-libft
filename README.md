@@ -61,6 +61,7 @@ This project is your very first project as a student at 42. You will need to rec
 | :---------------- | :--------- | :------------------------------------------------------------------------------- | :------------------------------------ |
 | `get_next_line`   | `int fd`   | the read line, or NULL if there is nothing else to read, or an error occurred.   | write a function that returns a line read from a file descriptor.   |
 | `ft_printf`       | `const char *format` | return the number of characters printed | produce output according to a format. only cspdiuxX% is available in this function. |
+| `ft_fndnrepl`       | `const char *find_str` `char *replace_word` `char *replace_value` | the new string, or NULL if the allocation fails. | find and replace a 'replace_word' by a 'replace_value' within 'find_str' |
 
 ![contributors](https://flat.badgen.net/github/contributors/BrunoCostaGH/42cursus-libft)
 ![issues](https://flat.badgen.net/github/issues/BrunoCostaGH/42cursus-libft)
