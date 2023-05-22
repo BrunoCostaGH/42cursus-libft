@@ -6,7 +6,7 @@
 /*   By: bsilva-c <bsilva-c@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 16:53:27 by bsilva-c          #+#    #+#             */
-/*   Updated: 2023/05/22 15:09:20 by bsilva-c         ###   ########.fr       */
+/*   Updated: 2023/05/22 15:19:12 by bsilva-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@ static int	len_before_replace(char *find_str, char *replace_word)
 {
 	int	i;
 
+	i = 0;
 	while (find_str && find_str++ != replace_word)
 		i++;
 	return (i);
@@ -33,6 +34,7 @@ char	*ft_fndnrepl(const char *find_str, char *replace_word, \
 							ft_strlen(replace_value) + 1, sizeof(char));
 	if (!before_str)
 		return (0);
+	after_str = NULL;
 	str = ft_strnstr(find_str, replace_word, ft_strlen(find_str));
 	temp_str = (char *)find_str;
 	ft_strlcpy(before_str, find_str, len_before_replace(temp_str, str));
