@@ -6,7 +6,7 @@
 /*   By: bsilva-c <bsilva-c@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/05 14:11:32 by bsilva-c          #+#    #+#             */
-/*   Updated: 2023/03/15 18:21:21 by bsilva-c         ###   ########.fr       */
+/*   Updated: 2023/06/05 19:32:24 by bsilva-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,8 @@ static int	string_count(char const *s, char c)
 	int		i;
 
 	i = 0;
+	if (!s)
+		return (i);
 	str = (char *)s;
 	while (*str)
 	{
@@ -54,7 +56,7 @@ char	**ft_split(char const *s, char c)
 	result = ft_calloc(string_count(s, c) + 1, sizeof(char *));
 	if (!result)
 		return (0);
-	while (*s)
+	while (s && *s)
 	{
 		while (*s == c && *s)
 			s++;
@@ -70,3 +72,4 @@ char	**ft_split(char const *s, char c)
 	}
 	return (result);
 }
+
