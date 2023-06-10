@@ -11,7 +11,7 @@
 # **************************************************************************** #
 
 CC=cc
-CFLAGS=-Wall -Werror -Wextra -I.
+CFLAGS=-Wall -Werror -Wextra
 DEPS=ft_printf.h
 
 SRC=ft_printf_base.c ft_printf.c ft_printf_utils.c ft_utoa.c
