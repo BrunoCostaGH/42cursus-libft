@@ -63,10 +63,10 @@ This project is your very first project as a student at 42. You will need to rec
 | `ft_printf`       | `const char *format` | return the number of characters printed | produce output according to a format. only cspdiuxX% is available in this function. |
 | `ft_fndnrepl`       | `const char *find_str` `char *replace_word` `char *replace_value` | the new string, or NULL if the allocation fails. | find and replace a 'replace_word' by a 'replace_value' within 'find_str' |
 
-![GitHub](https://img.shields.io/github/license/BrunoCostaGH/42cursus-libft?style=for-the-badge)
-![GitHub contributors](https://img.shields.io/github/contributors/BrunoCostaGH/42cursus-libft?style=for-the-badge)
-![GitHub issues](https://img.shields.io/github/issues/BrunoCostaGH/42cursus-libft?style=for-the-badge)
-![GitHub Release Date](https://img.shields.io/github/release-date/BrunoCostaGH/42cursus-libft?style=for-the-badge)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/BrunoCostaGH/42cursus-libft?style=for-the-badge)
+[![GitHub](https://img.shields.io/github/license/BrunoCostaGH/42cursus-libft?style=for-the-badge)]()
+[![GitHub contributors](https://img.shields.io/github/contributors/BrunoCostaGH/42cursus-libft?style=for-the-badge)]()
+[![GitHub issues](https://img.shields.io/github/issues/BrunoCostaGH/42cursus-libft?style=for-the-badge)](https://github.com/BrunoCostaGH/42cursus-libft/issues)
+[![GitHub Release Date](https://img.shields.io/github/release-date/BrunoCostaGH/42cursus-libft?style=for-the-badge)](https://github.com/BrunoCostaGH/42cursus-libft/releases/latest)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/BrunoCostaGH/42cursus-libft?style=for-the-badge)](https://github.com/BrunoCostaGH/42cursus-libft/releases/latest)
 
 [![FT_PRINTF](https://img.shields.io/badge/FT__PRINTF-v1.0.0-informational?style=for-the-badge)](https://github.com/BrunoCostaGH/42cursus-ft_printf/tree/v1.0.0)
