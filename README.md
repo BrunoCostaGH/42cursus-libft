@@ -5,7 +5,7 @@ This project is your very first project as a student at 42. You will need to rec
 
 ## Usage
 
-- Download the lastest release.
+- Download the latest release.
 - Include the libft header file in the project's header file or in the project's source files independently.
 - Compile project with the provided static library file (.a).
 
