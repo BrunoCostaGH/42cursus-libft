@@ -6,7 +6,7 @@
 /*   By: bsilva-c <bsilva-c@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 16:53:27 by bsilva-c          #+#    #+#             */
-/*   Updated: 2023/05/26 01:07:30 by bsilva-c         ###   ########.fr       */
+/*   Updated: 2023/09/25 19:06:18 by bsilva-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,8 @@ static int	len_before_replace(char *find_str, const char *replace_word)
 	int	i;
 
 	i = 0;
-	while (ft_strncmp(find_str + i, replace_word, ft_strlen(replace_word)))
+	while (ft_strncmp(find_str + i, replace_word, ft_strlen(replace_word)) && \
+			i <= ft_strlen(find_str))
 		i++;
 	return (++i);
 }
