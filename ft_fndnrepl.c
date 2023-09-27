@@ -6,7 +6,7 @@
 /*   By: bsilva-c <bsilva-c@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 16:53:27 by bsilva-c          #+#    #+#             */
-/*   Updated: 2023/09/26 16:35:15 by bsilva-c         ###   ########.fr       */
+/*   Updated: 2023/09/27 17:24:46 by bsilva-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ char	*ft_fndnrepl(const char *find_str, char *replace_word, \
 	char	*after_str;
 	char	*temp_str;
 
-	if (!find_str || !replace_word || !replace_value)
+	if (!find_str || !*find_str || !replace_word || !replace_value)
 		return (0);
 	before_str = ft_calloc(ft_strlen(find_str) - ft_strlen(replace_word) + \
 							ft_strlen(replace_value) + 1, sizeof(char));
